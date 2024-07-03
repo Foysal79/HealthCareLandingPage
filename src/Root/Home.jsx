@@ -1,9 +1,9 @@
-import React from 'react';
+import Banner from '../LayOut/Banner';
 
 const Home = () => {
     return (
         <div>
-            <p>This is a Home Session</p>
+            <Banner />
         </div>
     );
 };

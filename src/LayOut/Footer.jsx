@@ -16,26 +16,25 @@ const Footer = () => {
             <div className='text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ' >
             
             <div className='list-none space-y-4'>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Success Page</li>
-                <li>Terms And Conditions</li>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#"> About us </a> </li>
+                <li> <a href="#"> Success Page </a> </li>
+                <li> <a href="#">Terms And Conditions </a> </li>
             </div>
             <div className='list-none space-y-4'>
-                <li>Services</li>
-                <li>Scheduling</li>
-                <li>Contact Us</li>
-                <li>Patient Portal</li>
+                <li> <a href="#"> Services</a> </li>
+                <li> <a href="#"> Scheduling </a> </li>
+                <li> <a href="#"> Contact Us </a> </li>
+                <li> <a href="#"> Patient Portal </a> </li>
             </div>
             <div className='space-y-16' >
                 <div className='space-y-4'>
                     <p className='opacity-80' >Follow Us</p>
                     <div className='flex gap-4' >
-                    <FaFacebook className='text-2xl' />
-                    <FaInstagram className='text-2xl' />
-                    <FaLinkedin className='text-2xl' />
-                    <FaYoutubeSquare  className='text-2xl' />
-
+                        <a href="#">  <FaFacebook className='text-2xl' /> </a>
+                        <a href="#"> <FaInstagram className='text-2xl' /></a>
+                        <a href="#"> <FaLinkedin className='text-2xl' /></a>
+                        <a href="#"> <FaYoutubeSquare  className='text-2xl' /></a>
                     </div>
                 </div>
                 <div>

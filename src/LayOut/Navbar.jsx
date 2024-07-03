@@ -3,7 +3,7 @@ import { CgArrowTopRight } from "react-icons/cg";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 font-Inter w-11/12 mx-auto my-3">
+        <div className="navbar bg-base-100 font-Inter w-10/12 mx-auto my-3">
   <div className="navbar-start">
    
     <div className="dropdown">
