@@ -20,7 +20,7 @@ const Banner = () => {
                 <img className="w-[130px] h-[130px] mx-auto mt-6" src="https://i.ibb.co/Fx3ZYHz/pie-chart-301669.png" alt="" />
             </div>
 
-            <div className=" w-[216px] h-[190px] rounded-[24px] bg-[#ffffbf96] p-6 border-[1.5px]" >
+            <div className=" w-[216px] h-[190px] rounded-[24px] bg-[#ffffef] p-6 border-[1.5px]" >
             <h1 className="font-semibold text-4xl mb-3" >500+</h1>
             <p className="text-sm" >Board-certified doctors</p>
             <img className="w-16 ml-24 mt-4" src="https://i.ibb.co/QJVWKtp/medical-certificate-6750568.png" alt="" />
@@ -43,7 +43,7 @@ const Banner = () => {
     
             </div>
 
-            <div className=" w-[216px] h-[190px] rounded-[24px] bg-[#ffffbf96] p-6 border-[1.5px]" >
+            <div className=" w-[216px] h-[190px] rounded-[24px] bg-[#ffffef] p-6 border-[1.5px]" >
             <h1 className="font-semibold text-4xl mb-3" >$5000</h1>
             <p className="text-sm" >Money spend for poor patient</p>
             <img className="w-20 ml-24 -mt-5 " src="https://i.ibb.co/1dCV15n/investors-7788425.png" alt="" />
