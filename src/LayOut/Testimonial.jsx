@@ -3,14 +3,14 @@ import React from 'react';
 const Testimonial = () => {
     return (
         <div className='w-10/12 mx-auto my-36 font-Inter space-y-6' >
-            <button className=' text-[#020043] cursor-pointer py-2 px-6 border-[1.5px] border-black rounded-[32px] text-[16px] cursor-pointer' >Testimonial</button>
+            <button className=' text-[#020043] py-2 px-6 border-[1.5px] border-black rounded-[32px] text-[16px] cursor-pointer' >Testimonial</button>
             <h1 className=' font-semibold text-[36px] text-[#020043]' >What they say about us</h1>
             <div className='grid grid-cols-3 gap-10' >
                 <div className=' space-y-3 bg-[#ffffef] px-6 py-8 rounded-[16px] w-[371px]' >
                     <h1 className='font-semibold text-[19px] text-[#020043]' >Expertise and Compassion Combined</h1>
                     <p className='text-[#4D4C7B] text-xs ' >I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
                     <div className='flex gap-4' >
-                           <img className='w-10 rounded-full' src="https://i.ibb.co/RhD1JmP/468e67ad27d796428df80703412aebd7.jpg" alt="" />
+                           <img className='w-10 rounded-[90px]' src="https://i.ibb.co/RhD1JmP/468e67ad27d796428df80703412aebd7.jpg" alt="" />
                            <div className='space-y-1' >
                             <div className='flex' >
                                 <h1 className='font-semibold text-[12px] text-[#020043]' >Sarah D , </h1>
