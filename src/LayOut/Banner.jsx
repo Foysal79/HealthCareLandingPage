@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="w-10/12 mx-auto my-8 font-Inter" >
+        <div id='Home' className="w-10/12 mx-auto my-8 font-Inter" >
             {/* banner session part */}
         <div className=" relative "  >
            <div className="mb-16" >

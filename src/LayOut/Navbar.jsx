@@ -1,4 +1,5 @@
-import React from 'react';
+
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { CgArrowTopRight } from "react-icons/cg";
 
 const Navbar = () => {
@@ -24,10 +25,10 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-       <li><a>Home</a></li>
-      <li><a>Services</a></li>
-      <li><a>Blog</a></li>
-      <li><a>About Us</a></li>
+       <li><a><AnchorLink href='#Home'>Home</AnchorLink></a></li>
+       <li><a><AnchorLink href='#Services'>Services</AnchorLink></a></li>
+       <li><a><AnchorLink href='#Blog'>Blog</AnchorLink></a></li>
+       <li><a><AnchorLink href='#About'>About Us</AnchorLink></a></li>
       </ul>
     </div>
     <img className='w-20 md:w-32  ' src="https://i.ibb.co/0Gy87Gp/logo-dark.png" alt="" />
@@ -35,10 +36,10 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-sm	">
-      <li><a>Home</a></li>
-      <li><a>Services</a></li>
-      <li><a>Blog</a></li>
-      <li><a>About Us</a></li>
+    <li><a><AnchorLink href='#Home'>Home</AnchorLink></a></li>
+       <li><a><AnchorLink href='#Services'>Services</AnchorLink></a></li>
+       <li><a><AnchorLink href='#Blog'>Blog</AnchorLink></a></li>
+       <li><a><AnchorLink href='#About'>About Us</AnchorLink></a></li>
     </ul>
   </div>
   <div className="navbar-end ">

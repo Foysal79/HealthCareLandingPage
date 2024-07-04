@@ -3,7 +3,7 @@ import { CgArrowTopRight } from 'react-icons/cg';
 
 const Services = () => {
     return (
-        <div className='w-10/12 mx-auto mt-52 bg-[#ffffef] rounded-[32px] py-10 pl-10 space-y-16 font-Inter' >
+        <div id='Services' className='w-10/12 mx-auto mt-52 bg-[#ffffef] rounded-[32px] py-10 pl-10 space-y-16 font-Inter' >
             {/* session - 1 */}
             <div className='grid grid-cols-2 w-11/12 mx-auto'>
                 

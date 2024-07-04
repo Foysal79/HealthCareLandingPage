@@ -3,7 +3,7 @@ import { CgArrowTopRight } from 'react-icons/cg';
 
 const Blog = () => {
     return (
-        <div className=' w-10/12 mx-auto mt-28  font-Inter' >
+        <div id="Blog" className=' w-10/12 mx-auto mt-28  font-Inter' >
             <div className='grid grid-cols-2 space-x-10' >
                 <div className='space-y-6' >
                     <button className=' cursor-pointer py-2 px-4 border-[1.5px] border-black rounded-3xl text-sm' >Who we are</button>
