@@ -2,7 +2,7 @@ import React from "react";
 
 const FrequentlyAskQuestion = () => {
   return (
-    <div className="w-10/12 mx-auto my-36 font-Inter space-y-6">
+    <div className="w-10/12 mx-auto  font-Inter space-y-6">
       <button className=" text-[#020043] py-2 px-6 border-[1.5px] border-black rounded-[32px] text-[16px] cursor-pointer">
         Faq
       </button>
